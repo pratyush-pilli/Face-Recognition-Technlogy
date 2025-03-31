@@ -51,8 +51,7 @@ This project implements a **Face Recognition System** using OpenCV and Deep Lear
 🔹 Integrate a front-end UI using Streamlit  
 🔹 Optimize performance with GPU acceleration  
 
-## 📷 Example Output
-(Add sample images or GIFs of face recognition in action)
+
 
 ---
 
