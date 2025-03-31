@@ -38,6 +38,7 @@ This project implements a **Face Recognition System** using OpenCV and Deep Lear
 ✅ Supports real-time face recognition with a webcam  
 ✅ Uses deep learning for high accuracy  
 ✅ Scalable for large datasets of faces  
+✅ Registering new faces via interface
 
 ## 🖼️ Usage Guide
 - Place known face images inside the `known_faces/` directory.
