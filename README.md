@@ -1,12 +1,60 @@
-# Face-Recognition-Technology
-Face Recognition in real-time with python,opencv, dlib, face-recognition
-I
-First, run the input.py file enter the name and reference id for the person you are entering the data of.
-It will capture a video and take 5 pics of the person after entering the name and id
-press the 's' key to start capturing and 'q' in case you want to exit/close the camera
-after every capture is completed the camera application will close automatically.
-and will reopen until the required number of captures is completed.
-first capture would be a video so to enhance the data, further captures would be pictures in different angles.
-the captured images and videos would be encoded into bit streams.
-II
-then run the 'recognition.py' file it will recognise the faces of any person whose data was uploaded in 'input.py' file.
+# Face Recognition Technology
+
+## 🚀 Project Overview
+This project implements a **Face Recognition System** using OpenCV and Deep Learning. It detects and identifies faces in images and videos using advanced machine learning techniques.
+
+## 🛠️ Tech Stack
+- **Programming Language:** Python
+- **Libraries Used:** OpenCV, NumPy, dlib, face_recognition
+- **Model:** Deep Learning-based Face Recognition (using dlib's ResNet model)
+
+## 📥 Installation & Setup
+
+1. **Clone the Repository:**
+   ```sh
+   git clone https://github.com/pratyush-pilli/Face-Recognition-Technlogy.git
+   cd Face-Recognition-Technlogy
+   ```
+
+2. **Create a Virtual Environment (Recommended):**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate   # On Windows, use 'venv\Scripts\activate'
+   ```
+
+3. **Install Dependencies:**
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+4. **Run the Project:**
+   ```sh
+   python face_recognition.py
+   ```
+
+## 📌 Features
+✅ Detects faces in images and live video streams  
+✅ Recognizes and labels known faces  
+✅ Supports real-time face recognition with a webcam  
+✅ Uses deep learning for high accuracy  
+✅ Scalable for large datasets of faces  
+
+## 🖼️ Usage Guide
+- Place known face images inside the `known_faces/` directory.
+- Run the script to start detecting and recognizing faces.
+- Modify `face_recognition.py` to add more advanced features.
+
+## 🚀 Future Enhancements
+🔹 Improve accuracy with a custom-trained model  
+🔹 Deploy as a web API using Flask/FastAPI  
+🔹 Integrate a front-end UI using Streamlit  
+🔹 Optimize performance with GPU acceleration  
+
+## 📷 Example Output
+(Add sample images or GIFs of face recognition in action)
+
+---
+
+🔗 **Author:** [Pratyush Pilli](https://github.com/pratyush-pilli)  
+📌 **Contributions:** Open to PRs & suggestions!
+
