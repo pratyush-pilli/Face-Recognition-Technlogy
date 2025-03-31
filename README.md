@@ -58,4 +58,5 @@ This project implements a **Face Recognition System** using OpenCV and Deep Lear
 
 🔗 **Author:** [Pratyush Pilli](https://github.com/pratyush-pilli)  
 📌 **Contributions:** Open to PRs & suggestions!
+📝 **Notion Site:** (https://volcano-ketchup-922.notion.site/Face-Recognition-Project-1c73ff381c4780ba8684d19cdbbe54eb)
 
